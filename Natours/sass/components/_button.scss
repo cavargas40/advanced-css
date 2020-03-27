@@ -36,6 +36,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &::after {
     content: '';
     display: inline-block;
@@ -63,7 +72,7 @@
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid $color-primary;
-    padding: .5rem;
+    padding: 0.5rem;
     transition: all 0.2s;
   }
 
@@ -75,7 +84,7 @@
   }
 
   &:active {
-    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
     transform: translateY(0);
   }
 }
