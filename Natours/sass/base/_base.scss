@@ -14,3 +14,10 @@ html {
 body {
   box-sizing: border-box;
 }
+
+::selection {
+  background: $color-primary;
+}
+::-moz-selection {
+  background: $color-primary;
+}
