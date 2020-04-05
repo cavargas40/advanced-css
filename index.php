@@ -7,5 +7,6 @@
   </head>
   <body>
     <a href="Natours/index.html">Natours</a>
+    <a href="Trillo/index.html">Trillo</a>
   </body>
 </html>
