@@ -6,8 +6,10 @@
     <title>CV - Portfolio</title>
   </head>
   <body>
-    <a href="Natours/index.html">Natours</a>
-    
-    <a href="Trillo/index.html">Trillo</a>
+    <ul>
+      <li><a href="Natorus/index.html">Natorus</a></li>
+      <li><a href="Trillo/index.html">Trillo</a></li>
+      <li><a href="Nexter/index.html">Nexter</a></li>
+    </ul>
   </body>
 </html>
